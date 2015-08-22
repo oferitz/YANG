@@ -20,3 +20,6 @@ assert.equal(seperatorFalse.split(' ').length, 1, 'failed to trim spaces between
 
 var withSeperator = YANG.generate({separator: '-'});
 assert(withSeperator.split('-').length > 1, 'failed to custom separate between words');
+
+
+console.log(YANG.generate({the: true, camelize: true, separator: '-'}));

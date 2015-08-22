@@ -4,7 +4,7 @@
   "description": "Yet Another Name Generator",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
