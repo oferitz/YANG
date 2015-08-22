@@ -1,5 +1,5 @@
 {
-  "name": "YANG",
+  "name": "yang",
   "version": "1.0.0",
   "description": "Yet Another Name Generator",
   "main": "index.js",
