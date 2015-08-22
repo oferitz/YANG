@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm i -S YANG
+$ npm i yet-another-name-generator
 ```
 
 ## Test
@@ -17,7 +17,7 @@ $ npm test
 ## Usage
 
 ```js
-var YANG = require('YANG');
+var YANG = require('yet-another-name-generator');
 
 YANG.generate();
 

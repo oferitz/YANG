@@ -1,10 +1,10 @@
 {
-  "name": "yang",
+  "name": "yet-another-name-generator",
   "version": "1.0.0",
   "description": "Yet Another Name Generator",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node tes"
   },
   "repository": {
     "type": "git",
