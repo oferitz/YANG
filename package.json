@@ -1,0 +1,26 @@
+{
+  "name": "YANG",
+  "version": "1.0.0",
+  "description": "Yet Another Name Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oferitz/YANG.git"
+  },
+  "keywords": [
+    "project",
+    "server",
+    "app",
+    "name",
+    "generate",
+    "unique",
+    "random",
+    "generator",
+    "generater"
+  ],
+  "author": "Ofer Itzhaki",
+  "license": "ISC"
+}
