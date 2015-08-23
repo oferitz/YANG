@@ -1,4 +1,4 @@
-# YANG 
+# YANG [![Build Status](https://drone.io/github.com/oferitz/YANG/status.png)](https://drone.io/github.com/oferitz/YANG/latest)
 
 > Yet Another Name Generator
 
