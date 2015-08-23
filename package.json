@@ -1,10 +1,10 @@
 {
   "name": "yet-another-name-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet Another Name Generator",
   "main": "index.js",
   "scripts": {
-    "test": "node tes"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
