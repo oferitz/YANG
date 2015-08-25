@@ -44,7 +44,7 @@ YANG.generate(options);
 **options**:
 
 * **the {Boolean}**: if `true` add the word "the" to the beginning of the string.
-* **camelize {Boolean}**: if `true` uppercase the first letter of each word in the string.
+* **titleize {Boolean}**: if `true` uppercase the first letter of each word in the string.
 * **separator {Boolean|String}**: if `false` trim spaces between the words of the string making it one long string.
                                   else replace the whitespace between words with your custom separator.
                                   

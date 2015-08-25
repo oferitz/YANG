@@ -17,8 +17,10 @@ module.exports.generate = function generate(opts) {
   var allWords = animals.concat(professions);
   stupidname += (adjectives[getRandom(adjectives.length)] + ' ' + allWords[getRandom(allWords.length)]).toLowerCase();
 
-  if(typeof _opts.camelize !== 'undefined' && _opts.camelize === true) {
-    stupidname = stupidname.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+  if(typeof _opts.titleize !== 'undefined' && _opts.titleize === true) {
+    stupidname = stupidname.replace(/(?:^|\s|-)\S/g, function(c) {
+      return c.toUpperCase();
+    });
   }
 
   if(typeof _opts.separator !== 'undefined') {
