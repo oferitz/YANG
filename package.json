@@ -1,6 +1,6 @@
 {
   "name": "yet-another-name-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Yet Another Name Generator",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,5 @@
     "generater"
   ],
   "author": "Ofer Itzhaki",
-  "license": "ISC"
+  "license": "MIT"
 }
