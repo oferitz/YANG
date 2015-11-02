@@ -54,12 +54,12 @@ YANG.generate(options);
 YANG.generate({the: true});
 // -> the bloody jagger
 
-YANG.generate({the: true, camelize: true});
+YANG.generate({the: true, titleize: true});
 // -> The Magical Minnow
 
-YANG.generate({camelize: true, separator: false});
+YANG.generate({titleize: true, separator: false});
 // -> SoggyPoacher
 
-YANG.generate({the: true, camelize: true, separator: '-'});
+YANG.generate({the: true, titleize: true, separator: '-'});
 // -> The-Spiritual-Princess
 ```
