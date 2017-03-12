@@ -11,7 +11,7 @@ module.exports = [
   'Actor',
   'Actuary',
   'Administrator',
-  'Adventurer ',
+  'Adventurer',
   'Archaeologist',
   'Agent',
   'Agriculturist',
