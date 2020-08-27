@@ -1,6 +1,9 @@
-# YANG https://github.com/oferitz/YANG/workflows/Node.js CI/badge.svg
 
+
+# YANG
 > Yet Another Name Generator
+
+![YANG](https://github.com/oferitz/YANG/workflows/Node.js%20CI/badge.svg)
 
 ## Install
 
