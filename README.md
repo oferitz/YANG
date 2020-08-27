@@ -20,9 +20,9 @@ $ npm test
 ## Usage
 
 ```js
-var YANG = require('yet-another-name-generator');
+const YANG = require('yet-another-name-generator')
 
-YANG.generate();
+YANG.generate()
 
 ```
 **Some examples:**
@@ -54,15 +54,15 @@ YANG.generate(options);
 ### Examples
 ```js
 
-YANG.generate({the: true});
+YANG.generate({the: true})
 // -> the bloody jagger
 
-YANG.generate({the: true, titleize: true});
+YANG.generate({the: true, titleize: true})
 // -> The Magical Minnow
 
-YANG.generate({titleize: true, separator: false});
+YANG.generate({titleize: true, separator: false})
 // -> SoggyPoacher
 
-YANG.generate({the: true, titleize: true, separator: '-'});
+YANG.generate({the: true, titleize: true, separator: '-'})
 // -> The-Spiritual-Princess
 ```

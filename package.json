@@ -22,5 +22,8 @@
     "generater"
   ],
   "author": "Ofer Itzhaki",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  }
 }
