@@ -1,4 +1,4 @@
-# YANG [![Build Status](https://drone.io/github.com/oferitz/YANG/status.png)](https://drone.io/github.com/oferitz/YANG/latest)
+# YANG https://github.com/oferitz/YANG/workflows/Node.js CI/badge.svg
 
 > Yet Another Name Generator
 
