@@ -14,14 +14,14 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 21.x ]
+        node-version: [20]
 
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js $
+      - name: Use Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: $
+          node-version: 20
           cache: 'pnpm'
       - run: pnpm ci
       - run: pnpm run build --if-present
