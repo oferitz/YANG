@@ -24,9 +24,9 @@ $ pnpm run test
 ## Usage
 
 ```ts
-import YANG from 'yet-another-name-generator'
+import yang from 'yet-another-name-generator'
 
-YANG.generate()
+yang()
 
 ```
 **Some examples:**
@@ -45,7 +45,7 @@ YANG.generate()
 ## API
 ```ts
 
-YANG.generate(options);
+yang(options);
 
 ```
 ## Options
@@ -61,15 +61,15 @@ YANG.generate(options);
 ### Examples
 ```ts
 
-YANG.generate({the: true})
+yang({the: true})
 // -> the bloody jagger
 
-YANG.generate({the: true, titleize: true})
+yang({the: true, titleize: true})
 // -> The Magical Minnow
 
-YANG.generate({titleize: true, separator: false})
+yang({titleize: true, separator: false})
 // -> SoggyPoacher
 
-YANG.generate({the: true, titleize: true, separator: '-'})
+yang({the: true, titleize: true, separator: '-'})
 // -> The-Spiritual-Princess
 ```
