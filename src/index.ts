@@ -2,7 +2,7 @@ import { adjectives, animals, professions } from './dictionary/index.js'
 
 const getRandom = (limit: number) => Math.floor(Math.random() * limit)
 
-export default function generate({ the = false, titleize = false, separator }: {
+export function generate({ the = false, titleize = false, separator }: {
   the?: boolean,
   titleize?: boolean,
   separator?: string | boolean
