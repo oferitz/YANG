@@ -29,19 +29,15 @@ jobs:
       - run: pnpm run build
       - run: pnpm test
 
-  publish-npm:
+  publish:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-        with:
-          version: latest
       - uses: actions/setup-node@v3
         with:
-          node-version: 20
-          registry-url: https://registry.npmjs.org/
+          node-version: "20"
       - run: pnpm install
-      - run: npm publish --provenance
-        env:
-          NODE_AUTH_TOKEN: ${secrets.NPM_TOKEN}
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
