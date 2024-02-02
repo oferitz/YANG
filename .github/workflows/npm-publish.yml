@@ -26,7 +26,7 @@ jobs:
           node-version: '20'
           cache: 'pnpm'
       - run: pnpm ci
-      - run: pnpm run build --if-present
+      - run: pnpm run build
       - run: pnpm test
 
   publish-npm:
@@ -39,6 +39,6 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: pnpm install
-      - run: pnpm publish --provenance
+      - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${secrets.NPM_TOKEN}
