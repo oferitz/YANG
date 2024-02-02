@@ -1,6 +1,6 @@
 {
   "name": "yet-another-name-generator",
-  "version": "1.2.0",
+  "version": "1.0.1",
   "description": "Yet Another Name Generator",
   "main": "dist/index.js",
   "type": "module",
