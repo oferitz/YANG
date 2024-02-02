@@ -7,20 +7,24 @@
 
 ## Install
 
-```
-$ npm i yet-another-name-generator
-```
+```shell
+$ pnpm add yet-another-name-generator
+# or
+$ npm add yet-another-name-generator
+# or
+$ yarn add yet-another-name-generator
+````
 
 ## Test
 
-```
-$ npm test
+```shell
+$ pnpm run test
 ```
 
 ## Usage
 
-```js
-const YANG = require('yet-another-name-generator')
+```ts
+import YANG from 'yet-another-name-generator'
 
 YANG.generate()
 
@@ -39,20 +43,23 @@ YANG.generate()
 * mountainous herpetologist
 
 ## API
-```js
+```ts
 
 YANG.generate(options);
 
 ```
-**options**:
+## Options
 
-* **the {Boolean}**: if `true` add the word "the" to the beginning of the string.
-* **titleize {Boolean}**: if `true` uppercase the first letter of each word in the string.
-* **separator {Boolean|String}**: if `false` trim spaces between the words of the string making it one long string.
-                                  else replace the whitespace between words with your custom separator.
+| Option           | Type                    | Description                                                                                                               |
+| -----------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| the              | boolean                 | If `true`, adds the word "the" to the beginning of the string.                                                             |
+| titleize         | boolean                 | If `true`, capitalizes the first letter of each word in the string.                                                         |
+| separator        | boolean \| string       | - If `false`, trims spaces between the words, making it one long string.                                                   |
+|                  |                         | - If a string, replaces the whitespace between words with your custom separator.                                           |
+
                                   
 ### Examples
-```js
+```ts
 
 YANG.generate({the: true})
 // -> the bloody jagger
